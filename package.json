@@ -1,0 +1,30 @@
+{
+  "name": "vscode-tailwindcss-directives",
+  "displayName": "Tailwind CSS directives",
+  "description": "Custom data extension to inject tailwindcss directives into your css & scss files",
+  "publisher": "QuentiumYT",
+  "version": "1.0.0",
+  "icon": "images/icon.png",
+  "license": "MIT",
+  "homepage": "https://github.com/QuentiumYT/vscode-tailwindcss-directives",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuentiumYT/vscode-tailwindcss-directives.git"
+  },
+  "bugs": {
+    "url": "https://github.com/QuentiumYT/vscode-tailwindcss-directives/issues"
+  },
+  "engines": {
+    "vscode": "^1.67.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "contributes": {
+    "css": {
+      "customData": [
+        "./tailwind.css-data.json"
+      ]
+    }
+  }
+}

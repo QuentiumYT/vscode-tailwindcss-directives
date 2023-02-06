@@ -3,7 +3,7 @@
   "displayName": "Tailwind CSS directives",
   "description": "Custom data extension to inject tailwindcss directives into your css & scss files",
   "publisher": "QuentiumYT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "images/icon.png",
   "license": "MIT",
   "homepage": "https://github.com/QuentiumYT/vscode-tailwindcss-directives",

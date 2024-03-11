@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@import 'tailwindcss/utilities';
+
+@layer components {
+    .btn {
+        @apply px-4 py-2 rounded-md bg-primary text-white;
+    }
+}
+
+$white : theme('colors.white') !default;
+
+.test {
+    @apply flex flex-col justify-between h-screen;
+    background-color: theme('colors.primary') !important;
+
+    @screen -md {
+        @apply h-[66.66vh];
+    }
+
+    @media (screen(-lg)) {
+        @apply h-[50vh];
+    }
+}
+
+@layer base {
+    h1 {
+        @apply text-2xl;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+}

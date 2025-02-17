@@ -1,16 +1,14 @@
 # Tailwind CSS directives
 
-⚠️ It does not include Tailwind v4 directives yet. It will soon be added when the official documentation is released.
-
 ## Description
 
-This VSCode extension adds support for Tailwind CSS directives. By default `@tailwind`, `@apply`, `@config`, etc... are not recognized by the CSS language server. This extension include a custom data file that loads them inside your CSS & SCSS files. It will also show a description and a link to the documentation when you hover over a directive.
+This VSCode extension adds support for Tailwind CSS v4 and older directives. By default `@theme`, `@utility`, `@apply`, etc... are not recognized by the CSS language server. This extension include a custom data file that loads them inside your CSS & SCSS files. It will also show a description and a link to the documentation when you hover over a directive.
 
 You are not forced to use the tailwindcss language server to use this extension. It will work with the default CSS language server or SCSS.
 
 ![Preview](images/preview.png)
 
-ℹ️ Support Tailwind CSS v3 and also v2 (included alongside v3 but marked as obsolete).
+ℹ️ Support Tailwind CSS v4 and up to v1 (old directives are marked as obsolete).
 
 Documentation about custom data can be found here: https://github.com/microsoft/vscode-css-languageservice/blob/main/docs/customData.md
 
